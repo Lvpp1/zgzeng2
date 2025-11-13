@@ -1,0 +1,7 @@
+{
+    "Host": "10.201.20.10",
+    "Referer": "https://10.201.20.10/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36 GooBrowser/100.0.0.21",
+    "Cookie": "pcmgr_session=Hpr-Y1c0W9jVpH_Q4FqbFmqfcOSJGmpz; pcmgr_check=knL2Z2rV-JHTdSyKZC6aUAdBrls7rS_SZlM4; pcmgr_loginname=admin; topNotice_Free_noever=1",
+    "csrfToken": "knL2Z2rV-JHTdSyKZC6aUAdBrls7rS_SZlM4"
+}
