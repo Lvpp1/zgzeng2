@@ -1,6 +1,6 @@
 ## 帮助信息
 
-使用`python oneforall.py --help`
+使用`python run.py --help`
 
 ```
 D:\yd_project>python3 run.py --help
