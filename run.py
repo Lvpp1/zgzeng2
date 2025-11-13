@@ -9,6 +9,7 @@ import argparse
 
 requests.packages.urllib3.disable_warnings()
 logger = logging.getLogger('my_logger')
+
 def help_information():
     title = """
       __                                     __               .___
