@@ -108,38 +108,38 @@ def run():
         v1, v2, v3 = 0, 0, 0
         k1, k2, k3 = 0, 0, 0
         for item in filter_data:
-            if item[1] == '中国交建广州分公司':
-                item[1] = "粤港澳区域总部"
-            if item[1] == "中国交建江苏分公司":
-                item[1] = "长三角区域总部"
-            if item[1] == "中国交建东北分公司":
-                item[1] = "东北区域总部"
-            if item[1] == "中国交建西北分公司":
-                item[1] = "西北区域总部"
-            if item[1] == "中国交建海外工程分公司":
-                item[1] = "国际直营事业部"
-            if item[1] == "中国交建海外工程分公司":
-                item[1] = "国际直营事业部"
-            if item[1] == "中国交建总承包分公司":
-                item[1] = "国内直营事业部"
-            if item[1] == "中国交建京津冀分公司":
-                item[1] = "京津冀区域总部"
-            if item[1] == "中国交建西南分公司":
-                item['1'] = "京津冀区域总部"
-            if item[1] == "广航局":
+            if item[1] == '中国xxx分公司':
+                item[1] = "xx区域总部"
+            if item[1] == "中国xx分公司":
+                item[1] = "xx总部"
+            if item[1] == "中国xx公司":
+                item[1] = "xx总部"
+            if item[1] == "中国xx分公司":
+                item[1] = "xx总部"
+            if item[1] == "中国xx分公司":
+                item[1] = "x事业部"
+            if item[1] == "xx分公司":
+                item[1] = "xx事业部"
+            if item[1] == "xx分公司":
+                item[1] = "xx事业部"
+            if item[1] == "中国xx分公司":
+                item[1] = "xx总部"
+            if item[1] == "中国xx分公司":
+                item['1'] = "xx总部"
+            if item[1] == "xx局":
                 c1 = c1 + item[3]
                 v1 = v1 + item[4]
                 k1 = k1 + item[5]
-            if item[1] == "天航局":
+            if item[1] == "xx局":
                 c2 = c2 + item[3]
                 v2 = v2 + item[4]
                 k2 = k2 + item[5]
-            if item[1] == "上航局":
+            if item[1] == "xx局":
                 c3 = c3 + item[3]
                 v3 = v3 + item[4]
                 print(v3)
                 k3 = k3 + item[5]
-            if item[1] == "中交疏浚":
+            if item[1] == "xx":
                 item[3] = item[3] - c1 - c2 - c3
                 item[4] = item[4] - v1 - v2 - v3
                 item[5] = item[5] - k1 - k2 - k3
